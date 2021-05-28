@@ -11,21 +11,50 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="/img/logo.png" alt="logo-empresa">
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Busque por algo" />
-        </div>
-        <img class="foto-perfil" src="/img/foto-perfil.png" alt="foto do pergil do usuario">
+            <img class="logo" src="/img/logo.png" alt="logo-empresa">
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Busque por algo" />
+            </div>
+            <img class="foto-perfil" src="/img/foto-perfil.png" alt="foto do pergil do usuario">
     </header>
 
-<nav class="nav">
-    <ul> 
-        <li class="space">MENU</li>
-        <li><span><img src="/img/Icon.png" alt="icone do editor de código"></span><a href="#">Editor de código</a></li>
-        <li><span><img src="/img/Icon-2.png" alt="icone da Comuinidade"></span><a href="#">Comunidade</a></li> 
-    </ul>
-</nav>
 
+
+<section id="grid">
+        <nav id="nav">
+            <ul>
+                <h3 class="title">MENU</h3>
+                <li><span><img src="/img/Icon.png" alt="icone do editor de código"></span><a href="#">Editor de código</a></li>
+                <li><span><img src="/img/Icon-2.png" alt="icone da Comuinidade"></span><a href="#">Comunidade</a></li>
+            </ul>
+        </nav>
+        
+        <div class="img-code">
+            <img src="/img/campo-code.png" alt="campo de codigo" srcset="">
+            <div class="button_view">
+                <a href="#">Visualizar com o highlight</a>
+            </div>
+        </div>
+        
+        <div class="menu-lateral">
+            <form id="formulario" action="" method="post">
+                <h3 class="title">SEU PROJETO</h3>
+                <input class="input-lateral" type="text" id="txtBusca" placeholder="Nome do seu projeto" />
+                <input class="input-lateral desc" type="text" id="txtBusca" placeholder="Descrição do seu projeto" />
+            </form>
+            <form id="formulario" action="" method="post">
+                <h3 class="title">PERSONALIZAÇÃO</h3>
+                <select class="" name="curse" id="curse">
+                    <option value="">Javascript</option>
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                </select>
+                <input class="input-lateral" type="text" id="txtBusca" placeholder="Descrição do seu projeto" />
+                <input class="input-lateral retangulo" type="text" id="txtBusca" />
+                <a class="button" href="#">Salvar projeto</a>
+            </form>
+        </div>
+</section>
 
 
 </body>
